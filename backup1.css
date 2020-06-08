@@ -1,0 +1,118 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background-color: #35424a;
+    border-bottom: darkorange 3px solid;
+    min-height: 100px;
+}
+
+#branding{
+    padding-top: 5px;
+    float: left;
+    color: white;
+}
+
+.highlight{
+    color: darkorange;
+}
+
+nav{
+    padding-top: 25px;
+    float: right;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.current a{
+    color: darkorange;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: lightcoral;
+}
+
+nav ul li a:active{
+    color: darkorange;
+}
+
+
+#showcase{
+    background: lightblue;
+    text-align: center;
+}
+
+#showcase h1{
+    font-size: 400%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#showcase p{
+    font-size: 200%;
+}
+
+#newletter{
+    background: darkorange;
+}
+
+#newletter h1{
+    float: left;
+    padding: 10px;
+}
+
+#newletter form{
+    float: right;
+    padding-top: 18px;
+}
+
+#newletter form input{
+    border: none;
+    height: 35px;
+    padding: 5px;
+    width: 200px;
+}
+
+.button_1{
+    border: none;
+    height: 45px;
+    width: 100px;
+    padding: 5px;
+    color: white;
+    background-color: darkslategray;
+}
+
+.button_1:hover{
+    background-color: rgb(69, 117, 117);
+}
+
+#idunno{
+    padding: 14px 0 14px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: darkslategray;
+    color: white;
+    padding: 20px
+}

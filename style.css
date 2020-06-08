@@ -1,0 +1,109 @@
+body{
+    background: lightgray;
+    font: 15px/1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#image{
+    background: url(../bak.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    min-height: 650px;
+    border-bottom: black 3px solid;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.resume a{
+    border: white 3px solid;
+    padding: 8px 15px;
+}
+
+.resume a:hover{
+    color: black;
+    background-color: white;
+}
+
+header h1{
+    float: left;
+    min-height: 70px;
+}
+
+header h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    float: right;
+    padding-top: 15px;
+}
+
+nav ul li{
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 234, 234);
+    transition: ease 0.2s;
+}
+
+#name{
+    font-weight: 500;
+}
+
+.current a{
+    font-weight: bold;
+    color: rgb(255, 234, 234);
+}
+
+#cover{
+    padding-top: 100px;
+    text-align: center;
+}
+
+#cover h1{
+    font-size: 400%;
+}
+
+#cover p{
+    font-size: 200%;
+}
+
+#cover a{
+    color: white;
+}
+
+#git{
+    border: white 3px   ;
+    border-style: solid;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+#git:hover{
+    color: rgb(122, 98, 98);
+    background: white;
+    transition: ease 0.2s;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(122, 98, 98);
+    color: white;
+    min-height: 73px;
+    padding-top: 35px;
+}
